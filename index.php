@@ -2,7 +2,7 @@
 // Variables de configuración
 $siteName = "Perseo";
 $siteEmail = "perseoparking@gmail.com";
-$sitePhone = "999888777";
+$sitePhone = "999 888 777";
 $siteAddress = "Piura";
 $currentYear = date('Y');
 ?>
