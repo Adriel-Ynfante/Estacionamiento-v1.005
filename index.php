@@ -23,7 +23,7 @@ $currentYear = date('Y');
             <a href="#">Reservar</a>
             <a href="#" class="open-card1">Informacion</a>
             <a href="#" class="open-card2">Contactos</a>
-            <button class="btn"><a href="registro.html">Iniciar Sesion</a></button>
+            <button class="btn"><a href="views/login_register.php">Iniciar Sesion</a></button>
         </nav>
     </header>
 
