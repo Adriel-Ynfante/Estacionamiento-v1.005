@@ -8,11 +8,12 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login/Registration Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../assets/css/login_register.css">
+    <link rel="stylesheet" href="./assets/css/login_register.css">
 </head>
 <body>
     <div class="fondo">
         <span class="icono-cerrar"><i class="bi bi-x"></i></span>
+        
         <div class="contenedor-form login">
             <h2>Iniciar Sesión</h2>
             <section class="iconos">
@@ -25,7 +26,7 @@ session_start();
                     <span class="icono"><i class="bi bi-person-circle"></i></span>
                     <input type="email" id="emailLogin" name="emailLogin" required 
                            value="<?php echo isset($_POST['emailLogin']) ? htmlspecialchars($_POST['emailLogin']) : ''; ?>">
-                    <label for="emailLogin">Correo Electonico</label>
+                    <label for="emailLogin">Correo Electrónico</label>
                 </div>
                 <div class="contenedor-input">
                     <span class="icono"><i class="bi bi-lock-fill"></i></span>
@@ -83,6 +84,7 @@ session_start();
             </form>
         </div>
     </div>
+    
     <?php
     if (isset($_SESSION['error'])) {
         echo '<div class="alert alert-danger">' . htmlspecialchars($_SESSION['error']) . '</div>';
@@ -93,6 +95,7 @@ session_start();
         unset($_SESSION['success']);
     }
     ?>
-<script src="./assets/js/login_register.js"></script>
+
+    <script src="./assets/js/login_register.js"></script>
 </body>
 </html>
