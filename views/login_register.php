@@ -11,6 +11,8 @@ session_start();
     <link rel="stylesheet" href="../../assets/css/login_register.css">
 </head>
 <body>
+
+
     <div class="fondo">
         <span class="icono-cerrar"><i class="bi bi-x"></i></span>
         
