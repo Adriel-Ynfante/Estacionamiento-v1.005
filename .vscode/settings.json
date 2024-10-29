@@ -1,4 +1,4 @@
 {
-    "php.version": "8.4",
+    "php.version": "8.0",
     "php.validate.executablePath": "C:\\xampp\\php\\php.exe"
 }
