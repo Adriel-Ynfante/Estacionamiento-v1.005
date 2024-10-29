@@ -1,22 +1,9 @@
 {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "Launch built-in server",
-            "type": "php",
-            "request": "launch",
-            "runtimeArgs": [
-                "-S",
-                "localhost:8000",
-                "-t",
-                "."
-            ],
-            "port": 9003,
-            "serverReadyAction": {
-                "action": "openExternally",
-                "pattern": "Listening on (https?://\\S+)"
-            }
-        },
         {
             "name": "Launch built-in server and debug",
             "type": "php",
@@ -29,8 +16,7 @@
             ],
             "port": 9003,
             "serverReadyAction": {
-                "action": "openExternally",
-                "pattern": "Listening on (https?://\\S+)"
+                "action": "openExternally"
             }
         },
         {
