@@ -24,6 +24,7 @@ $currentYear = date('Y');
             <a href="#" class="open-card1">Informacion</a>
             <a href="#" class="open-card2">Contactos</a>
             <a href="/views/login_register.php">login_register</a>
+            <button></button>
         </nav>
     </header>
 
